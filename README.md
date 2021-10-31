@@ -5,7 +5,7 @@ Deno persons example project using Deno Deploy. Caution: This application needs 
 Use deployed service at https://deno-persons-deploy.deno.dev/person or test locally by using deployctl, e.g. **deployctl run webserver.ts**.
 
 ## Lint
-To check for linting issues execute **deno lint --unstable**.
+To check for linting issues execute **deno lint**.
 
 ## Routes
 * /person Get all persons
