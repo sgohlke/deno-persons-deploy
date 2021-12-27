@@ -25,7 +25,7 @@ function handleRequest(request: Request): Response {
       const userId = pathname.substring(8);
       const person = PersonService.getPersonForId(userId);
       if (!person) {
-        return logAndReturnErrorResponse(`No stackstream user found for id: ${userId}`);
+        return logAndReturnErrorResponse(`No user found for id: ${userId}`);
       } else {
         return new Response(JSON.stringify(person), {headers: jsonContentTypeHeader},)
       }
