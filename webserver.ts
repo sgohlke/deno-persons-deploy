@@ -1,4 +1,4 @@
-import { PersonService} from "./deps.ts";
+import { PersonService, serve } from "./deps.ts";
 
 const jsonContentTypeHeader = {
   "content-type": "application/json; charset=UTF-8",
@@ -34,6 +34,4 @@ function handleRequest(request: Request): Response {
   return logAndReturnErrorResponse(`No api endpoint found for path ${pathname}`);
 }
 
-addEventListener("fetch", (event: FetchEvent) => {
-  event.respondWith(handleRequest(event.request));
-});
+serve(handleRequest);
