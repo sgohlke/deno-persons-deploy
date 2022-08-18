@@ -1,5 +1,7 @@
 import { PersonService, serve } from "./deps.ts";
 
+const port = 3018;
+
 const jsonContentTypeHeader = {
   "content-type": "application/json; charset=UTF-8",
   };
@@ -34,4 +36,4 @@ function handleRequest(request: Request): Response {
   return logAndReturnErrorResponse(`No api endpoint found for path ${pathname}`);
 }
 
-serve(handleRequest);
+serve(handleRequest, { port: port });
