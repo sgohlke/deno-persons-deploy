@@ -2,6 +2,6 @@
    "tasks": {
       "format": "deno fmt --options-indent-width=3 --options-single-quote",
       "lint": "deno lint",
-      "start": "deno run --unstable --allow-net webserver.ts"
+      "start": "deno run --allow-net webserver.ts"
    }
 }
