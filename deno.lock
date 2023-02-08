@@ -1,17 +1,17 @@
 {
   "version": "2",
   "remote": {
-    "https://deno.land/std@0.170.0/async/abortable.ts": "80b2ac399f142cc528f95a037a7d0e653296352d95c681e284533765961de409",
-    "https://deno.land/std@0.170.0/async/deadline.ts": "2c2deb53c7c28ca1dda7a3ad81e70508b1ebc25db52559de6b8636c9278fd41f",
-    "https://deno.land/std@0.170.0/async/debounce.ts": "60301ffb37e730cd2d6f9dadfd0ecb2a38857681bd7aaf6b0a106b06e5210a98",
-    "https://deno.land/std@0.170.0/async/deferred.ts": "77d3f84255c3627f1cc88699d8472b664d7635990d5358c4351623e098e917d6",
-    "https://deno.land/std@0.170.0/async/delay.ts": "5a9bfba8de38840308a7a33786a0155a7f6c1f7a859558ddcec5fe06e16daf57",
-    "https://deno.land/std@0.170.0/async/mod.ts": "7809ad4bb223e40f5fdc043e5c7ca04e0e25eed35c32c3c32e28697c553fa6d9",
-    "https://deno.land/std@0.170.0/async/mux_async_iterator.ts": "770a0ff26c59f8bbbda6b703a2235f04e379f73238e8d66a087edc68c2a2c35f",
-    "https://deno.land/std@0.170.0/async/pool.ts": "6854d8cd675a74c73391c82005cbbe4cc58183bddcd1fbbd7c2bcda42b61cf69",
-    "https://deno.land/std@0.170.0/async/retry.ts": "e8e5173623915bbc0ddc537698fa418cf875456c347eda1ed453528645b42e67",
-    "https://deno.land/std@0.170.0/async/tee.ts": "3a47cc4e9a940904fd4341f0224907e199121c80b831faa5ec2b054c6d2eff5e",
-    "https://deno.land/std@0.170.0/http/server.ts": "1b93c76cd415d7b6ad0ae36c17ccb9149b23f4dff018f7d5aa1ab5c36637eb45",
+    "https://deno.land/std@0.177.0/async/abortable.ts": "73acfb3ed7261ce0d930dbe89e43db8d34e017b063cf0eaa7d215477bf53442e",
+    "https://deno.land/std@0.177.0/async/deadline.ts": "c5facb0b404eede83e38bd2717ea8ab34faa2ffb20ef87fd261fcba32ba307aa",
+    "https://deno.land/std@0.177.0/async/debounce.ts": "adab11d04ca38d699444ac8a9d9856b4155e8dda2afd07ce78276c01ea5a4332",
+    "https://deno.land/std@0.177.0/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
+    "https://deno.land/std@0.177.0/async/delay.ts": "73aa04cec034c84fc748c7be49bb15cac3dd43a57174bfdb7a4aec22c248f0dd",
+    "https://deno.land/std@0.177.0/async/mod.ts": "f04344fa21738e5ad6bea37a6bfffd57c617c2d372bb9f9dcfd118a1b622e576",
+    "https://deno.land/std@0.177.0/async/mux_async_iterator.ts": "70c7f2ee4e9466161350473ad61cac0b9f115cff4c552eaa7ef9d50c4cbb4cc9",
+    "https://deno.land/std@0.177.0/async/pool.ts": "fd082bd4aaf26445909889435a5c74334c017847842ec035739b4ae637ae8260",
+    "https://deno.land/std@0.177.0/async/retry.ts": "5efa3ba450ac0c07a40a82e2df296287b5013755d232049efd7ea2244f15b20f",
+    "https://deno.land/std@0.177.0/async/tee.ts": "47e42d35f622650b02234d43803d0383a89eb4387e1b83b5a40106d18ae36757",
+    "https://deno.land/std@0.177.0/http/server.ts": "cbb17b594651215ba95c01a395700684e569c165a567e4e04bba327f41197433",
     "https://raw.githubusercontent.com/sgohlke/ModPersonServiceDeno/1.0.14/personservice.ts": "90cfce00adc78776d5c3c8844a90dee607fcec1d59b7b96b3e356b8bb0d69f85"
   }
 }
