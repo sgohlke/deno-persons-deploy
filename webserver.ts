@@ -1,4 +1,4 @@
-import { PersonService, serve } from "./deps.ts";
+import { PersonService, startServer } from "./deps.ts";
 
 const port = 3018;
 
@@ -36,4 +36,4 @@ function handleRequest(request: Request): Response {
   return logAndReturnErrorResponse(`No api endpoint found for path ${pathname}`);
 }
 
-serve(handleRequest, { port: port });
+startServer(handleRequest, { port: port });
