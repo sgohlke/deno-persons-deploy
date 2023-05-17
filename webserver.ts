@@ -12,8 +12,8 @@ const responseHeaders = new Headers(JSON_CONTENT_TYPE_HEADER)
 function handleRequest(request: Request): Response {
    if (request.method !== 'GET') {
       return logAndReturnErrorResponse(
-         responseHeaders,
          `Only GET method is allowed, but got: ${request.method}`,
+         responseHeaders,
          405,
       )
    }
@@ -29,8 +29,8 @@ function handleRequest(request: Request): Response {
          const person = PersonService.getPersonForId(userId)
          if (!person) {
             return logAndReturnErrorResponse(
-               responseHeaders,
                `No user found for id: ${userId}`,
+               responseHeaders,
             )
          } else {
             return returnDataResponse(person, responseHeaders)
@@ -38,8 +38,8 @@ function handleRequest(request: Request): Response {
       }
    }
    return logAndReturnErrorResponse(
-      responseHeaders,
       `No api endpoint found for path ${pathname}`,
+      responseHeaders,
    )
 }
 
