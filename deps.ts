@@ -7,4 +7,4 @@ export {
    logAndReturnErrorResponse,
    returnDataResponse,
    startServer,
-} from 'https://raw.githubusercontent.com/sgohlke/deno-web/3.0.0/index.ts'
+} from 'https://raw.githubusercontent.com/sgohlke/deno-web/4.0.0/index.ts'
